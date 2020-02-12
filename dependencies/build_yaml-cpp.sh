@@ -5,8 +5,8 @@ tar -xzvf yaml-cpp-0.5.1.tar.gz
 
 mv jbeder-yaml-cpp-fa6a71e yaml-cpp-0.5.1
 
-
-mkdir -p ../opt/{include,lib}
+mkdir -p ../opt/include
+mkdir -p ../opt/lib
 
 cd yaml-cpp-0.5.1
 
@@ -22,4 +22,3 @@ cp libyaml-cpp.a ../../opt/lib
 
 cd ../
 rm -rf yaml-cpp-0.5.1
-

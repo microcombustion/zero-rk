@@ -3,10 +3,11 @@
 
 wget http://crd-legacy.lbl.gov/~xiaoye/SuperLU/superlu_4.3.tar.gz
 
-tar -xzf superlu_4.3.tar.gz 
+tar -xzf superlu_4.3.tar.gz
 
 SUPERLUINST=${PWD}/../opt/SuperLU_4.3
-mkdir -p ${SUPERLUINST}/{lib,SRC}
+mkdir -p ${SUPERLUINST}/lib
+mkdir -p ${SUPERLUINST}/SRC
 
 cd SuperLU_4.3
 
