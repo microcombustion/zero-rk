@@ -1,0 +1,9 @@
+[submodule "ext/yaml-cpp"]
+	path = dependencies/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "ext/sundials"]
+	path = dependencies/sundials
+	url = https://github.com/LLNL/sundials.git
+[submodule "ext/superlu"]
+	path = dependencies/superlu
+	url = https://github.com/xiaoyeli/superlu.git
